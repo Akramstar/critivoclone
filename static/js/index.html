@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="header">hello</h1>
+
+
+    <script>
+        var numbers = [2, 6, 4, 6, 4, 2, 6, 4, 6, 8, 9, 2, 4, 6, 6, 2, 5, 2, 6, 2];
+       var total = 0;
+       var avg = 0;
+       for (var i = 0; i < numbers.length; i++) {
+        total += numbers[i];
+        }
+        avg = total / numbers.length
+        document.getElementById("header").innerHTML = avg;
+        document.write(avg);
+        console.log(avg)
+        
+    </script>
+</body>
+</html>
